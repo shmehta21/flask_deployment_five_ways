@@ -3,4 +3,7 @@
 
 2. Heroku: Define the proc file and link it to the GIT repo. Give it requirements.txt and deploy to Heroku.
 
-3. Docker: Creating a docker image and then pushing it onto Docker hub. Running it later in a Docker container using docker-machine
+3. Docker: Create a docker image and then push it onto Docker hub. DOwnload the image and run the image in a container. Now deploy the container to Cloud using different techniques as below
+    a. docker-machine 
+    b. Create a K8s cluster on http://console.cloud.google.com and deploy your app to this cluster.
+    c. Deploy your app to minikube which is installed locally on your machine
